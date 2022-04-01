@@ -154,7 +154,10 @@ a {
 .hero {
   padding: 200px 0;
   background-color: #2f303a;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../images/hero/img.jpg) center/cover no-repeat;
 }
+
 .hero-title {
   color: var(--primary-bg-color);
 
@@ -215,6 +218,15 @@ a {
 
 .feauture-list-item {
   max-width: 270px;
+}
+
+.feauture-list-item::before {
+  content: '';
+  display: block;
+
+  height: 120px;
+  background-color: #f5f4fa;
+  background: url(../images/decor.jpg) center/contain no-repeat;
 }
 
 .feature-text {
