@@ -150,9 +150,56 @@ body {
   line-height: 1.71;
 }
 
-/* Удаление подчеркивания у ссылок */
-a {
-  text-decoration: none;
+.footer-title {
+  font-family: 'Roboto' sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+/* ___SVG___ */
+
+.footer-socials-box {
+  margin-left: 70px;
+
+  width: 220px;
+  height: 80px;
+}
+.footer-decor-box {
+  display: flex;
+  justify-content: flex-start;
+}
+/* ghfdrb */
+.footer-decor-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-decor-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 44px;
+  width: 44px;
+  margin-right: 10px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: 0.4s;
+}
+
+.footer-decor-item:hover {
+  background-color: var(--accent-color);
+}
+
+.footer-decor-socials {
+  height: 20px;
+  width: 25px;
+  fill: var(--primary-bg-color);
 }
 
 /* Стили для ТИТУЛЬНОЙ страницы */
