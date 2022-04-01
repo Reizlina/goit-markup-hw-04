@@ -348,6 +348,39 @@ a {
   fill: #afb1b8;
 }
 
+/* Постоянные клиенты */
+
+.regular-custumers-section {
+  padding: 94px 0;
+}
+.regular-custumers-list {
+  display: flex;
+  justify-content: space-between;
+}
+.regular-custumers-item {
+  display: flex;
+}
+/* ___SVG___ */
+
+.regular-custumers-icon {
+  display: inline-block;
+  width: 106px;
+  height: 60px;
+  fill: #afb1b8;
+  padding: 16px 32px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  transition: 0.4s;
+}
+
+.regular-custumers-item:hover .regular-custumers-icon {
+  border-color: var(--accent-color);
+}
+
+.regular-custumers-icon:hover {
+  fill: var(--accent-color);
+}
+
 /* Стили для ПОРТФОЛИО */
 
 .portfolio-hidden {
