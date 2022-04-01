@@ -87,10 +87,25 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  display: flex;
 }
 .socials:hover,
 .socials:focus {
   color: var(--accent-color);
+}
+
+/* ___SVG___ */
+
+.decor-icon-header {
+  max-height: 16px;
+  max-width: 20px;
+  margin-right: 10px;
+  fill: var(--primary-text-color);
+}
+
+.socials:hover .decor-icon-header,
+.socials:focus .decor-icon-header {
+  fill: var(--accent-color);
 }
 
 /* Подвал */
@@ -154,7 +169,7 @@ a {
 .hero {
   padding: 200px 0;
   background-color: #2f303a;
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+  background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url(../images/hero/img.jpg) center/cover no-repeat;
 }
 
@@ -220,18 +235,20 @@ a {
   max-width: 270px;
 }
 
-.feauture-list-item::before {
-  content: '';
-  display: block;
-
-  height: 120px;
-  background-color: #f5f4fa;
-  background: url(../images/decor.jpg) center/contain no-repeat;
-}
-
 .feature-text {
   font-size: 14px;
   line-height: 1.71;
+}
+
+/* ___SVG___ */
+.decor-image-feauture {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  padding: 25px 100px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  margin-bottom: 30px;
 }
 
 /* Чем мы занимаемся */
