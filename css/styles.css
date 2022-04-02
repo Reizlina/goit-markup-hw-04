@@ -159,13 +159,16 @@ body {
   text-transform: uppercase;
   color: #ffffff;
   margin-bottom: 20px;
+  margin-top: 12px;
+}
+
+.first-footer-box {
+  margin-right: 70px;
 }
 
 /* ___SVG___ */
 
 .footer-socials-box {
-  margin-left: 70px;
-
   width: 220px;
   height: 80px;
 }
@@ -173,7 +176,7 @@ body {
   display: flex;
   justify-content: flex-start;
 }
-/* ghfdrb */
+
 .footer-decor-list {
   display: flex;
   justify-content: space-between;
