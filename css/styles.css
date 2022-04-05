@@ -358,6 +358,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 270px;
 }
 
 .team-text {
@@ -367,7 +368,7 @@ body {
 }
 
 .team-text-box {
-  padding: 30px 0;
+  padding: 30px 32px;
   text-align: center;
 }
 
